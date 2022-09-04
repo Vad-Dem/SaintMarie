@@ -1,0 +1,318 @@
+.header {
+    // .header__inner
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    // .header__logo
+
+    &__logo {
+        transition: 0.2s;
+        &:hover {
+            outline: 3px solid #000;
+        }
+    }
+
+    // .header__menu
+
+    &__menu {
+        display: flex;
+    }
+
+    // .header__menu-item
+
+    &__menu-item {
+        margin-left: 50px;
+        a {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 108%;
+            transition: 0.3s;
+            color: #aaaaaa;
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+}
+
+// _____________________________________________________________________________________________________________________
+
+.collection {
+    // .collection__box
+    margin-bottom: 30px;
+    &__box {
+        position: relative;
+    }
+
+    // .collection__textbox
+
+    &__textbox {
+        font-weight: 400;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    // collection__image
+    &__image {
+        width: 100%;
+    }
+
+    // .collection__title
+
+    &__title {
+        font-size: 48px;
+        line-height: 58px;
+        margin-bottom: 17px;
+    }
+
+    // .collection__text
+
+    &__text {
+        font-size: 20px;
+        line-height: 31px;
+        letter-spacing: 0.206928px;
+    }
+}
+
+// _____________________________________________________________________________________________________________________
+
+.exploratoires {
+    margin-bottom: 17px;
+    // .exploratoires__box
+
+    &__box {
+        position: relative;
+    }
+
+    // .exploratoires__image
+
+    &__image {
+        width: 100%;
+    }
+
+    // .exploratoires__textbox
+
+    &__textbox {
+        position: absolute;
+        width: 100%;
+        font-weight: 400;
+        color: #ffffff;
+        top: 0px;
+        left: 0px;
+        bottom: 0;
+        right: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    // .exploratoires__title
+
+    &__title {
+        font-size: 48px;
+        line-height: 121%;
+        margin-bottom: 20px;
+    }
+
+    // .exploratoires__text
+
+    &__text {
+        font-size: 20px;
+        line-height: 155%;
+        letter-spacing: 0.206928px;
+    }
+}
+
+// _____________________________________________________________________________________________________________________
+
+.promice {
+    
+    // .promice__inner
+    margin-bottom: 30px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .promice__box
+
+    &__box {
+        position: relative;
+    }
+
+    // .promice__box-img
+
+    &__box-img {
+        width: 100%;
+    }
+
+    // .promice__boxtext
+
+    &__boxtext {
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    // .promice__boxtext-title
+
+    &__boxtext-title {
+        font-size: 23px;
+        line-height: 121%;
+        margin-bottom: 10px;
+    }
+
+    // .promice__boxtext-text
+
+    &__boxtext-text {
+        font-size: 12px;
+        line-height: 162%;
+        letter-spacing: 0.13px;
+    }
+}
+
+// _____________________________________________________________________________________________________________________
+.projects {
+    
+    // .projects__inner
+    margin-bottom: 120px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .projects__item
+
+    &__item {
+        position: relative;
+    }
+
+    // .projects__item-img
+
+    &__item-img {
+        width: 100%;
+    }
+
+    // .projects__item-info
+
+    &__item-info {
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    // .projects__item-title
+
+    &__item-title {
+        font-size: 15px;
+        line-height: 119%;
+        margin-bottom: 6px;
+    }
+
+    // .projects__item-text
+
+    &__item-text {
+        font-size: 13px;
+        line-height: 150%;
+    }
+}
+
+// _____________________________________________________________________________________________________________________
+
+.footer {
+    // .footer__box
+
+    &__box {
+        margin: 0 auto;
+        align-items: center;
+        max-width: 265px;
+        width: 100%;
+    }
+
+    // .footer__box-link
+
+    &__box-link {
+        transition: 0.3s all;
+        background-color: #000;
+        padding: 17px;
+        border: 1px solid #000;
+        path {
+            fill: #fff;
+        }
+        svg {
+            width: 19px;
+            height: 19px;
+        }
+        & + & {
+            margin-left: 10px;
+        }
+        &:hover {
+            background-color: #fff;
+            path {
+                fill: #000;
+            }
+        }
+    }
+
+    // .footer__logo
+
+    &__logo {
+        max-width: 125px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    // .footer__text
+
+    &__text {
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 158%;
+        text-align: center;
+        letter-spacing: 0.38px;
+        color: #333333;
+    }
+}
+

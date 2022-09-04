@@ -1,0 +1,30 @@
+@import '../../node_modules/animate.css/animate'; 
+html,
+body {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-family: "Chivo", sans-serif;
+  overflow-x:hidden; 
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  
+}
+
